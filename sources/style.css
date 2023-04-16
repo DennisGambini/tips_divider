@@ -1,0 +1,85 @@
+/* palette */
+
+:root {
+    --red: #E08D79;
+    --red_forte: #de431c;
+    --lavander: #A882DD;
+    --honey: #E0EFDE;
+    --celeste: #B3F2DD;
+    --violet: #49416D;
+}
+
+body{
+    background-color: var(--honey);
+    color: var(--violet);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tot_euro_container{
+    margin: 60px 0;
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    gap: 40px;
+}
+.tot_euro_text{
+    line-height: 50px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+input.tot_euro{
+    
+    padding: 0 15px;
+    /* border: 1px solid var(--violet); */
+    height: 50px;
+}
+
+.person{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    align-items: stretch;
+    justify-content:space-between;
+}
+.col{
+    border: 1px solid var(--violet);
+    width: calc(100% / 5);
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+}
+.footer_sx, .footer_dx{
+    width: calc(100% / 2);
+}
+
+.grey{
+    border: 2px solid var(--honey);
+}
+.green{
+    border: 2px solid var(--red);
+}
+
+.red_text{
+    color: var(--red_forte);
+    font-weight: 900;
+}
+
+button{
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: transparent !important;
+    border: 2px solid var(--red); 
+    color: var(--red);
+}
+button:hover{
+    cursor: pointer;
+    color: var(--red_forte);
+    border: 2px solid var(--red_forte);
+}
