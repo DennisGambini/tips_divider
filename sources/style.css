@@ -83,3 +83,7 @@ button:hover{
     color: var(--red_forte);
     border: 2px solid var(--red_forte);
 }
+
+.small_text{
+    font-size: 0.8rem;
+}

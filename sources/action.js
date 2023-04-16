@@ -105,14 +105,24 @@ function calcolaCelle() {
 
         person.percentage = person.hours / (ore_totali / 100)
         person.euro = person.percentage * (tot_euro / 100)
+
+
         console.log('person_%  ', person.percentage, '  person_euro   ', Math.round(person.euro))
         
-        document.querySelector(`.person[person_name="${person.name}"] > .percentages`).innerHTML = person.percentage.toFixed(3) + ' &percnt;'
+        // casella percentuali
+        let casella_perc = document.querySelector(`.person[person_name="${person.name}"] > .percentages`);
+        casella_perc.innerHTML = person.percentage.toFixed(3) + ' &percnt;';
+        casella_perc.classList.add('small_text');
 
-        document.querySelector(`.person[person_name="${person.name}"] > .euro`).innerHTML = person.euro.toFixed(3)
+        // casella euro non arrotondati
+        let casella_euro = document.querySelector(`.person[person_name="${person.name}"] > .euro`);
+        casella_euro.innerHTML = person.euro.toFixed(3);
+        casella_euro.classList.add('small_text');
+
+        // casella euro arrotondati
 
         let casella_arr = document.querySelector(`.person[person_name="${person.name}"] > .euro-arr`)
-        casella_arr.innerHTML = Math.round(person.euro) + ' &euro;'
-        casella_arr.classList.add('red_text')
+        casella_arr.innerHTML = Math.round(person.euro) + ' &euro;';
+        casella_arr.classList.add('red_text');
     })
 }
