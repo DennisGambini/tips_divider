@@ -21,6 +21,13 @@ const people = [
         euro_arr: null
     },
     {
+        name: 'Carlotta',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
+    {
         name: 'Ale',
         hours: null,
         percentage: null,
@@ -49,7 +56,7 @@ const people = [
         euro_arr: null
     },
     {
-        name: 'Sal',
+        name: 'Sahan',
         hours: null,
         percentage: null,
         euro: null,
@@ -75,5 +82,47 @@ const people = [
         percentage: null,
         euro: null,
         euro_arr: null
-    }
+    },
+    {
+        name: 'Sofia',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
+    {
+        name: 'Nys',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
+    {
+        name: 'Nicolò',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
+    {
+        name: 'Vinicius',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
+    {
+        name: 'Vale',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
+    {
+        name: 'Matteo',
+        hours: null,
+        percentage: null,
+        euro: null,
+        euro_arr: null
+    },
 ];
